@@ -1,3 +1,7 @@
+/**
+ * 数量を扱う値オブジェクト
+ * @class Quantity
+ */
 class Quantity {
   private MIN: number = 1
   private MAX: number = 100
