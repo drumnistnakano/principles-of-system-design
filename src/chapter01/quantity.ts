@@ -33,6 +33,6 @@ class Quantity {
 
 const quantity = new Quantity(2)
 console.log(quantity, 'initial')
-const addValueQuantity = new Quantity(3)
-console.log(addValueQuantity, 'add')
-console.log(quantity.add(addValueQuantity), 'result')
+const addedValue = new Quantity(3)
+console.log(addedValue, 'add')
+console.log(quantity.add(addedValue), 'result')
