@@ -2,7 +2,7 @@
  * 数量を扱う値オブジェクト
  * @class Quantity
  */
-class Quantity {
+export class Quantity {
   private MIN: number = 1
   private MAX: number = 100
   value: number
@@ -30,9 +30,3 @@ class Quantity {
     return this.value + other.value
   }
 }
-
-const quantity = new Quantity(2)
-console.log(quantity, 'initial')
-const addedValue = new Quantity(3)
-console.log(addedValue, 'add')
-console.log(quantity.add(addedValue), 'result')
